@@ -1,0 +1,85 @@
+body {
+margin: 0;
+font-family: "Segoe UI", Arial, sans-serif;
+background: linear-gradient(120deg, #eef2f3, #ffffff);
+color: #333;
+}
+
+header {
+background: linear-gradient(120deg, #0077cc, #00aaff);
+color: white;
+text-align: center;
+padding: 40px 20px;
+}
+
+.hero {
+min-height: 40vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.container {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px;
+padding: 40px;
+max-width: 1100px;
+margin: auto;
+}
+
+.card, .info-card {
+background: white;
+padding: 25px;
+border-radius: 15px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.card svg {
+margin-bottom: 15px;
+}
+
+.timeline-container {
+max-width: 800px;
+margin: auto;
+padding: 40px;
+}
+
+.timeline {
+border-left: 4px solid #0077cc;
+padding-left: 30px;
+}
+
+.timeline-event {
+margin-bottom: 25px;
+position: relative;
+}
+
+.timeline-event span {
+font-weight: bold;
+color: #0077cc;
+font-size: 1.2em;
+}
+
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 12px 20px;
+background: #0077cc;
+color: white;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+}
+
+.btn:hover {
+background: #005fa3;
+}
+
+footer {
+text-align: center;
+padding: 15px;
+background: #ddd;
+margin-top: 40px;
+}
